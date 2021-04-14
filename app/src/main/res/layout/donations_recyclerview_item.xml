@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageDonation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars"
+        android:textIsSelectable="true"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/titleRefDonation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="28dp"
+        android:padding="2dp"
+        android:text="Referencia"
+        android:textColor="@color/color4"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageDonation"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textIsSelectable="true"/>
+
+    <TextView
+        android:id="@+id/refDonation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageDonation"
+        app:layout_constraintTop_toBottomOf="@+id/titleRefDonation"
+        android:textIsSelectable="true"/>
+
+    <TextView
+        android:id="@+id/titleDateDonation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="5dp"
+        android:padding="2dp"
+        android:text="Fecha donación"
+        android:textColor="@color/color4"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageDonation"
+        app:layout_constraintTop_toBottomOf="@+id/refDonation"
+        android:textIsSelectable="true"/>
+
+    <TextView
+        android:id="@+id/dateDonation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageDonation"
+        app:layout_constraintTop_toBottomOf="@+id/titleDateDonation"
+        android:textIsSelectable="true"/>
+
+    <TextView
+        android:id="@+id/titleDonorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="5dp"
+        android:padding="2dp"
+        android:text="Donante"
+        android:textColor="@color/color4"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageDonation"
+        app:layout_constraintTop_toBottomOf="@+id/dateDonation"
+        android:textIsSelectable="true"/>
+
+    <TextView
+        android:id="@+id/donorName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageDonation"
+        app:layout_constraintTop_toBottomOf="@+id/titleDonorName"
+        android:textIsSelectable="true"/>
+
+    <TextView
+        android:id="@+id/titleReceptorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="5dp"
+        android:padding="2dp"
+        android:text="Receptor"
+        android:textColor="@color/color4"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageDonation"
+        app:layout_constraintTop_toBottomOf="@+id/donorName"
+        android:textIsSelectable="true"/>
+
+    <TextView
+        android:id="@+id/receptorName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="10dp"
+        android:textIsSelectable="true"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageDonation"
+        app:layout_constraintTop_toBottomOf="@+id/titleReceptorName" />
+
+    <TextView
+        android:id="@+id/more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/color4"
+        android:padding="2dp"
+        android:text="+ info"
+        android:textColor="@color/color3"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageDonation" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

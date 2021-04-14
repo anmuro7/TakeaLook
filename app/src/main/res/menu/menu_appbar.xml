@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/optics_logout"
+        android:icon="@drawable/logout_app"
+        android:title="Logout"
+        android:titleCondensed="Logout"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/closeApp"
+        android:icon="@drawable/ic_baseline_close_24"
+        android:title="Exit"
+        android:titleCondensed="Exit"
+        android:visible="true"
+        app:showAsAction="always" />
+</menu>

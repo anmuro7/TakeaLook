@@ -1,0 +1,34 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Take a Look</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_register_optics">RegisterOpticsActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="politicaprivacidad" tools:ignore="Typos">La presente Política de Privacidad establece los términos en que Take a Look usa y protege la información que es proporcionada por sus usuarios al momento de utilizar la aplicación. Esta compañía está comprometida con la seguridad de los datos de sus usuarios. Cuando le pedimos llenar los campos de información personal con la cual usted pueda ser identificado, lo hacemos asegurando que sólo se empleará de acuerdo con los términos de este documento. Sin embargo esta Política de Privacidad puede cambiar con el tiempo o ser actualizada por lo que le recomendamos y enfatizamos revisar continuamente esta página para asegurarse que está de acuerdo con dichos cambios.
+Información que es recogidaNuestra aplicación podrá recoger información personal por ejemplo: Nombre,  información de contacto como  su dirección de correo electrónica e información demográfica. Así mismo cuando sea necesario podrá ser requerida información específica para procesar algún pedido o realizar una entrega o facturación.
+Uso de la información recogidaNuestra aplicación emplea la información con el fin de proporcionar el mejor servicio posible, particularmente para mantener un registro de usuarios, de pedidos en caso que aplique, y mejorar nuestros productos y servicios.  Es posible que sean enviados correos electrónicos periódicamente a través de nuestro sitio con ofertas especiales, nuevos productos y otra información publicitaria que consideremos relevante para usted o que pueda brindarle algún beneficio, estos correos electrónicos serán enviados a la dirección que usted proporcione y podrán ser cancelados en cualquier momento.
+Take a Look está altamente comprometido para cumplir con el compromiso de mantener su información segura. Usamos los sistemas más avanzados y los actualizamos constantemente para asegurarnos que no exista ningún acceso no autorizado.
+Control de su información personal. En cualquier momento usted puede restringir la recopilación o el uso de la información personal que es proporcionada a nuestra aplicación.  Cada vez que se le solicite rellenar un formulario, como el de alta de usuario, puede marcar o desmarcar la opción de recibir información por correo electrónico.  En caso de que haya marcado la opción de recibir nuestro boletín o publicidad usted puede cancelarla en cualquier momento.
+Esta compañía no venderá, cederá ni distribuirá la información personal que es recopilada sin su consentimiento, salvo que sea requerido por un juez con un orden judicial.
+Take a Look Se reserva el derecho de cambiar los términos de la presente Política de Privacidad en cualquier momento.
+</string>
+    <string name="infouser">"Take a Look es un proyecto solidario con dos objetivos. En primer lugar queremos poner nuestro granito de arena en la sociedad ofreciendo a personas en riesgo de exclusión la opción de mejorar sus problemas de visión sin tener que ver comprometida su economía. En segundo lugar queremos fomentar el reciclaje de gafas graduadas para darles una segunda vida. Para que puedas formar parte de este proyecto y que las gafas lleguen a quien realmente las necesita, debemos asegurarnos que la persona solicitante las necesita. Es por ello que necesitamos que nos envíes por email a apptakealook@gmail.com el certificado de persona en riesgo de exclusión para que los establecimientos puedan verificar a quien entregan las gafas."</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="recoverPass">Hemos enviado un mensaje a su cuenta de correo para recuperar la contraseña.</string>
+    <string name="emailDonacion">Hola, le informamos que las gafas que donó han sido entregadas a un nuevo dueño, le agradecemos mucho su colaboración.</string>
+</resources>
